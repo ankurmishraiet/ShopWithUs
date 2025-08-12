@@ -1,0 +1,145 @@
+body
+{
+  background-image: url(../img/bg1.png);
+  background-repeat:repeat;
+  background-attachment: fixed;
+  z-index:-1;
+}
+#full
+{
+  position:relative;
+  min-height: 100vh;
+  height:auto;
+  width:100%;
+  z-index:1;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+#header
+{
+ background-color: steelblue;
+ position:fixed;
+ top:0;
+ left:0;
+ height:10%;
+ width:100%;
+ z-index:1999;
+}
+#logo
+{
+ position:absolute;
+ height:50%;
+ width:30%;
+ color:yellow;
+ font-size:30px;
+ left:2%;
+ top:20%;
+}
+#lin
+{
+  position:absolute;
+  left:20%;
+  width:85%;
+  height:50%;
+  top:20%;
+  font-size:30px;
+  color:white;
+}
+
+.link
+{
+ color:white;
+}
+a
+{
+ color:yellow;
+ text-decoration:none;
+}
+
+#marquee{
+  position:absolute;
+  border-left: 6px solid yellow;
+  background-color: lightgrey;
+  height:10%;
+  width:100%;
+  font-size:30px;
+  top:12%;
+  margin:auto;
+  margin-left:10%;
+  width:80%;
+  color:white;
+  background-color:deepskyblue;
+  background-size: contain;
+  margin-right:10%;
+}
+#products{
+  position : absolute;
+  border-left: 6px solid yellow;
+  background-color:white;
+  height:auto;
+  width:100%;
+  top:24%;
+  margin:auto;
+  margin-left:10%;
+  width:80%;
+  color:white;
+  background-color:deepskyblue;
+  margin-right:10%;
+}
+
+
+.product{
+  position:relative;
+  height:5%;
+  width:50%;
+  opacity:1;
+  z-index:999;
+  left:25%;
+}
+
+.home-prodlist-imgi {
+  height: 350px; 
+  width: 300px; 
+  padding: 2px;
+  border: 1px solid #847b7b;
+  border-radius: 8px;
+  color:black;
+}
+
+.home-prodlist-img img div {
+  font-size: 20px;
+}
+.home-prodlist-img:hover {
+  background-color: #9a3489;
+  border-radius: 8px;
+  color: #fff;
+}
+.srcclear{
+	clear:both;
+}
+
+.srcbutton {
+	margin: 0;
+	padding: 9px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #169E8F;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+#menu ul{
+  list-style: none;
+}
+#menu li{
+  display: inline;
+}
